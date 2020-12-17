@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WaitingList"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:textColor="#55EDBD"
+        android:textStyle="bold"
+        android:shadowColor="#000"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="9"
+        android:textSize="50dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DoctorName"
+            android:textSize="15dp"
+            android:fontFamily="@font/chelsea_market"
+            android:textColor="#000"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:fontFamily="@font/chelsea_market"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DoctorPro"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:fontFamily="@font/chelsea_market"
+            android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/proficiency"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:fontFamily="@font/chelsea_market"
+        android:gravity="center"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/CancelAppointment_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:background="@drawable/selector"
+        android:fontFamily="@font/chelsea_market"
+        android:textSize="15dp"
+        android:text="@string/CancelAppointment" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DoctorQueue"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/chelsea_market"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:gravity="center"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctors_list"
+        android:elevation="10dp"
+        android:layout_marginTop="20dp">
+    </ListView>
+
+</LinearLayout>

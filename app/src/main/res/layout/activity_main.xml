@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBlue"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MakeAnAppointment"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#55EDBD"
+        android:textStyle="bold"
+        android:shadowColor="#000"
+        android:shadowDx="12"
+        android:shadowDy="12"
+        android:shadowRadius="9"
+        android:textSize="50dp"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/doctor"/>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/Login"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:background="@drawable/selector"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/SignUp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "567853842819",
+    "project_id": "appointmentplanner-90edb",
+    "storage_bucket": "appointmentplanner-90edb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567853842819:android:4ee296673e30fe80d1f6b6",
+        "android_client_info": {
+          "package_name": "com.example.appointmentplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567853842819-31kv7dleli472mit629mbigdplu7qm1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appointmentplanner",
+            "certificate_hash": "0065076f913b441c06f85d3988e50576f4715c4f"
+          }
+        },
+        {
+          "client_id": "567853842819-fkseqebjn9sah4t6ag7j9678s5uomc6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDryMLaB01w_R87LUtVcmgTRjqkn4T0ZSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567853842819-fkseqebjn9sah4t6ag7j9678s5uomc6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<color name="colorPrimary">#55EDBD</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+<color name="black">#102030</color>
+<color name="dark">#386562</color>
+<color name="Blue">#099FFF</color>
+<color name="remove_picture_background">#FFFFFF</color>
+<color name="lightBlue">#DBFDF3</color>
+<color name="barColor">#55EDBD</color>
+<color name="cardViewColor">#80DEEA</color>
+
+</resources>

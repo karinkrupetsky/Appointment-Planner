@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:padding="3dp"
+    android:layout_margin="5dp"
+    android:focusableInTouchMode="true"
+    >
+    <RadioGroup
+        android:id="@+id/filter_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/filter_available"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/Showavailable"
+            android:checked="true"
+            android:fontFamily="@font/chelsea_market"
+            android:textColor="#000"
+            android:textSize="12sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/filter_not_available"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/ShownotAvailable"
+            android:fontFamily="@font/chelsea_market"
+            android:textColor="#000"
+            android:textSize="12sp"
+           >
+
+        </RadioButton>
+    </RadioGroup>
+
+
+</RelativeLayout>

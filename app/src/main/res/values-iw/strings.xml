@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="position">
+        <item>רופא</item>
+        <item>מטופל</item>
+    </string-array>
+    <string name="app_name">AppointmentPlanner</string>
+    <string name="MakeAnAppointment">קבע פגישה אצל הרופא</string>
+    <string name="Login">התחבר</string>
+    <string name="SignUp">הירשם</string>
+    <string name="WaitingList">רשימת המתנה</string>
+    <string name="DoctorName">"שם הרופא: "</string>
+    <string name="DoctorPro">"התמחות:  "</string>
+    <string name="CancelAppointment">ביטול פגישה</string>
+    <string name="DoctorQueue">"התור לרופא: "</string>
+    <string name="Name">"שם: "</string>
+    <string name="Age">"גיל: "</string>
+    <string name="Enteryourname">הכנס את שמך</string>
+    <string name="Enteryourproficiency">התמחות</string>
+    <string name="UploadPic">העלה תמונה</string>
+    <string name="Credentials">פרטים</string>
+    <string name="Enteryouremail">הכנס\\י אימייל</string>
+    <string name="EnterYourPassword">הכנס\\י סיסמא</string>
+    <string name="SignUpAs">"התחברות בתור: "</string>
+    <string name="Book">לקבוע</string>
+    <string name="Patients">מטופלים</string>
+    <string name="Showavailable">סנן זמינים</string>
+    <string name="ShownotAvailable">סנן לא זמינים</string>
+    <string name="EnterYouremail">הכנס\\י את האימייל</string>
+    <string name="EnterYourAge">הכנס\\י את גילך</string>
+    <string name="EnterYourPhone">הכנס\\י טלפון</string>
+    <string name="Doctors">רופאים</string>
+    <string name="Patientss">מטופלים</string>
+</resources>
